@@ -1,7 +1,6 @@
 import random
 
 def choisir_mot():
-  mots = []
   """Choisit un mot aléatoire parmi une liste"""
   mots = ["chat", "chien", "oiseau", "poisson"]
   return random.choice(mots)
