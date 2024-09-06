@@ -2,7 +2,7 @@ import random
 
 def choisir_mot():
   """Choisit un mot aléatoire parmi une liste"""
-  mots = ["chat", "chien", "oiseau", "poisson"]
+  mots = ["chat", "chien", "oiseau", "poisson","canard"]
   return random.choice(mots)
 
 def jouer():
